@@ -51,7 +51,12 @@ All relevant invariants are checked under **logical AND composition**, ensuring 
 **7. What is out of scope for Core Semantics?**  
 Implementation details, syntax, tooling, compilers, runtime behavior, model outputs, or ethical evaluation mechanisms are not included; only structural meaning is defined.
 
-<details>  
-<summary><strong>Why this page avoids implementation detail</strong></summary>  
-This document defines the **meaning of system actions and constraints**. Enforcement is intentionally left to system-specific mechanisms to prevent semantic drift.
+<details>  <summary><strong>Why this page avoids implementation detail</strong></summary>  
+Architectural Scope Reminder
+> This document defines **architectural authority and invariants**.
+> It does not describe how decisions are executed or enforced.
+> Descriptions of *how* belong in system, implementation, or assurance documentation—not here. 
+> This document defines architectural meaning and boundaries. 
+> Implementation choices are intentionally excluded so that multiple systems can conform without semantic drift. 
+> If you are looking for how a system enforces or realizes these concepts, refer to system-specific documentation.
 </details>
