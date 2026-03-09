@@ -1,5 +1,12 @@
 # DREA Execution Gate
 
+**DREA (Deterministic Runtime Evaluation Authority)** is an architectural role that
+evaluates whether a system state is admissible prior to execution or materialization.
+
+DREA does not implement business logic, control flow, or execution mechanisms.
+It serves as the deterministic evaluation boundary at which architectural invariants
+are checked and enforced.
+
 ## Constraint Enforced
 No execution may occur unless admissibility has been deterministically evaluated and satisfied across all applicable invariants.
 
