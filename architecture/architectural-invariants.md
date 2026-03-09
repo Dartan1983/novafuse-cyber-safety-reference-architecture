@@ -49,5 +49,11 @@ The architecture may still function operationally, but it is no longer internall
 Implementation techniques, enforcement mechanisms, and system-specific validation logic.
 
 <details>  <summary><strong>Why this page avoids implementation detail</strong></summary>  
-This document defines architectural meaning and boundaries. Implementation choices are intentionally excluded so that multiple systems can conform without semantic drift. If you are looking for how a system enforces or realizes these concepts, refer to system-specific documentation.
+Architectural Scope Reminder
+> This document defines **architectural authority and invariants**.
+> It does not describe how decisions are executed or enforced.
+> Descriptions of *how* belong in system, implementation, or assurance documentation—not here. 
+> This document defines architectural meaning and boundaries. 
+> Implementation choices are intentionally excluded so that multiple systems can conform without semantic drift. 
+> If you are looking for how a system enforces or realizes these concepts, refer to system-specific documentation.
 </details>
