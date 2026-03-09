@@ -1,4 +1,4 @@
-# DREA Execution Gate
+# DREA Execution Gate (Deterministic Runtime Execution Authority)
 
 ## What is DREA?
 
@@ -30,3 +30,29 @@ Each evaluation produces a GMI-signed artifact recording of decision outcome, co
 
 ## Out of Scope / Not Claimed
 This file does not specify implementation details, performance optimizations, caching strategies, or internal representations of the DREA engine.
+
+---
+
+## DREA Execution Gate (Deterministic Runtime Execution Authority) FAQ
+
+**What is the DREA execution gate?**  
+It is a conceptual boundary that determines whether a realization is semantically admissible under DREA.
+
+**Why does DREA require an execution gate?**  
+Not all realizations preserve semantic intent, even if they are structurally valid.
+
+**What is being “gated”?**  
+Semantic admissibility, not runtime execution, performance, or system behavior.
+
+**Where does this gate conceptually sit?**  
+Between semantic intent and its concrete realization across representations.
+
+**How is this different from an implementation gate or runtime check?**  
+It defines architectural legitimacy, not operational enforcement.
+
+**What does the execution gate not define?**  
+Tools, pipelines, runtime components, or enforcement mechanisms.
+
+<details>  <summary><strong>Why this page avoids implementation detail</strong></summary>  
+This document defines architectural meaning and boundaries. Implementation choices are intentionally excluded so that multiple systems can conform without semantic drift. If you are looking for how a system enforces or realizes these concepts, refer to system-specific documentation.
+</details>
