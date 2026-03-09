@@ -25,3 +25,33 @@ This constraint is evidenced by a GMI-signed artifact generated at the moment of
 
 ## Out of Scope / Not Claimed
 This definition does not specify concrete syntax, tooling, compilers, model training, output correctness, ethical evaluation, or implementation details of a private production codebase. It defines only the structural rules that make unsafe states unreachable.
+
+---
+
+## Core Semantics FAQ 
+
+**1. What are Core Semantics?**  
+Core Semantics define the fundamental meaning of system **states, actions, and composition**. They determine under what conditions a system action is allowed to exist.
+
+**2. Why are Core Semantics necessary?**  
+They ensure that all actions are **deterministic, invariant-driven, and enforceable**, preventing unsafe states from ever arising.
+
+**3. Where do Core Semantics apply?**  
+At every point where system actions, transitions, or compositions are defined across the architecture.
+
+**4. How do Core Semantics relate to Core Invariants?**  
+Core Semantics provide the **meaning and rules**, while Core Invariants are the **non-negotiable properties** derived from that meaning.
+
+**5. What happens if semantics are violated?**  
+Any inadmissible or undefined action is **immediately refused** before execution, with evidence generated. No partial execution or override is allowed.
+
+**6. What is evaluated to enforce Core Semantics?**  
+All relevant invariants are checked under **logical AND composition**, ensuring full coherence before any action proceeds.
+
+**7. What is out of scope for Core Semantics?**  
+Implementation details, syntax, tooling, compilers, runtime behavior, model outputs, or ethical evaluation mechanisms are not included; only structural meaning is defined.
+
+<details>  
+<summary><strong>Why this page avoids implementation detail</strong></summary>  
+This document defines the **meaning of system actions and constraints**. Enforcement is intentionally left to system-specific mechanisms to prevent semantic drift.
+</details>
