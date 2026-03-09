@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NovaFuse Cyber-Safety Reference Architecture
 
 Reference architecture defining how unsafe states are made structurally unreachable through invariant-driven enforcement.
@@ -16,3 +17,7 @@ Evidenced by GMI-signed artifacts generated at evaluation time and written to ca
 
 ## Out of Scope / Not Claimed
 This reference architecture does not document product features, model intent, output correctness, ethical evaluation, or private implementation details. It defines only the structural constraints that make unsafe states unreachable.
+=======
+# novafuse-cyber-safety-reference-architecture
+Reference architecture defining invariant‑driven cyber‑safety for governed autonomous systems.
+>>>>>>> 86ff43368075a485dad1ac969f0fb077f168fca8
