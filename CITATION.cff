@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: 'NovaFuse Cyber Safety Reference Architecture'
+message: >-
+  If you use this reference architecture in your research, please cite it as
+  follows.
+type: software
+authors:
+  - given-names: NovaFuse
+    family-names: Project
+    email: contact@novafuse.org
+repository-code: 'https://github.com/novafuse/cyber-safety-reference-architecture'
+url: 'https://novafuse.org'
+license: MIT
+abstract: >-
+  A comprehensive reference architecture for cyber safety in AI systems, 
+  providing formal specifications, governance frameworks, and verification 
+  strategies for safe and compliant AI-driven systems.
+keywords:
+  - cyber safety
+  - AI safety
+  - reference architecture
+  - formal verification
+  - compliance
+  - threat modeling
+  - invariants
+version: 1.0.0
+date-released: '2026-03-08'
