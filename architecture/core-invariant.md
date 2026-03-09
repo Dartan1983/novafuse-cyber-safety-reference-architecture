@@ -5,6 +5,7 @@ A **Core Invariant** is a **non-negotiable property** of the system that must al
 It is **the smallest, indivisible rule** that guarantees cyber-safety.  
 Violating a Core Invariant is **architecturally impossible**, and triggers **deterministic refusal**.
 
+---
 
 ## Definition
 
