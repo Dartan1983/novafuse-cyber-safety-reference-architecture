@@ -1,4 +1,16 @@
 # Constitutional Threat Model
+# Constitutional Threat Model in NovaFuse
+
+## What the Constitutional Threat Model Is
+
+The **Constitutional Threat Model** defines **hazardous system states and conditions** that could violate safety, mission, or operational constraints.  
+
+Unlike traditional threat models that focus on adversaries or attack techniques, NovaFuse treats **threats as hazards**—conditions that **could cause inadmissible or unsafe system states**.  
+The architecture constrains system behavior such that these hazardous states **cannot occur**, independent of attack origin.
+
+> In NovaFuse, threat modeling is **structural and semantic**, not probabilistic.
+
+---
 
 ## Constraint Enforced
 Only threats capable of violating defined invariants or bypassing admissibility boundaries are considered in scope.
