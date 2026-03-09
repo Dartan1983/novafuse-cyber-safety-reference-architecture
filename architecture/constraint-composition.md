@@ -6,7 +6,8 @@
 In other words: while a **Core Invariant** defines a single atomic rule, **Constraint Composition** defines the **logic of multiple rules together**.
 
 > All composition must preserve the atomic laws of NovaFuse (Core Invariants, DREA enforcement, refusal semantics).
-
+> 
+---
 
 ## Constraint Enforced
 Multiple constraints and invariants must compose without weakening admissibility guarantees.
