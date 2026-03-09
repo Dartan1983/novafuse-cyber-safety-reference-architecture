@@ -25,3 +25,29 @@ Invariant evaluation outcomes are recorded as part of the GMI-signed admissibili
 
 ## Out of Scope / Not Claimed
 This document does not define operational policies, implementation techniques, or optimization strategies.
+
+---
+
+## Architectural Invariants FAQ
+
+**What is an architectural invariant?**  
+An architectural invariant is a condition that must always hold true for the architecture to remain coherent, regardless of system, technology, or implementation.
+
+**Why are architectural invariants necessary?**  
+Without explicit invariants, architectural intent erodes silently as systems evolve independently.
+
+**Where do architectural invariants apply?**  
+They apply across the entire architecture, spanning multiple systems, domains, and representations.
+
+**How are architectural invariants different from Core Invariants?**  
+Architectural invariants govern structural coherence of the architecture; Core Invariants govern semantic meaning of concepts.
+
+**What happens if an architectural invariant is violated?**  
+The architecture may still function operationally, but it is no longer internally consistent or trustworthy.
+
+**What is out of scope for architectural invariants?**  
+Implementation techniques, enforcement mechanisms, and system-specific validation logic.
+
+<details>  <summary><strong>Why this page avoids implementation detail</strong></summary>  
+This document defines architectural meaning and boundaries. Implementation choices are intentionally excluded so that multiple systems can conform without semantic drift. If you are looking for how a system enforces or realizes these concepts, refer to system-specific documentation.
+</details>
