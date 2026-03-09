@@ -1,5 +1,4 @@
 # Constitutional Threat Model
-# Constitutional Threat Model in NovaFuse
 
 ## What the Constitutional Threat Model Is
 
