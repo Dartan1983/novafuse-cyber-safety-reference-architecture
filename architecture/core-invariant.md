@@ -83,3 +83,33 @@ Regular comprehensive verification of invariant compliance.
 
 ### Incident Analysis
 Post-incident verification of invariant behavior and improvements.
+
+---
+
+## Core Invariant FAQ 
+
+**1. What is a Core Invariant?**  
+A Core Invariant is a **non-negotiable property** of the system that must always hold for execution to be admissible. It is the smallest, indivisible rule that guarantees cyber-safety.
+
+**2. Why are Core Invariants necessary?**  
+Without Core Invariants, unsafe states could arise unnoticed, undermining the structural guarantees of the architecture.
+
+**3. Where do Core Invariants apply?**  
+They apply across all system states and actions, spanning multiple components, subsystems, and representations.
+
+**4. How are Core Invariants different from Architectural Invariants?**  
+Core Invariants govern the **semantic meaning** of system actions, while Architectural Invariants govern the **structural coherence** of the architecture.
+
+**5. What happens if a Core Invariant is violated?**  
+Violation is **architecturally impossible**; any attempt produces a **deterministic refusal** and prevents unsafe execution.
+
+**6. Can Core Invariants be overridden?**  
+No. They are **inviolable** within the architecture and define the fundamental rules for admissibility.
+
+**7. What is out of scope for Core Invariants?**  
+Implementation mechanisms, runtime enforcement, tooling, algorithms, or operational procedures are not specified here; Core Invariants define **what must always be true**, not how it is enforced.
+
+<details>  
+<summary><strong>Why this page avoids implementation detail</strong></summary>  
+This document defines architectural meaning and rules. Enforcement and implementation choices are intentionally excluded so multiple systems can conform without semantic drift.
+</details>
